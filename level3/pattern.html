@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>star pattern</title>
+</head>
+
+<body>
+    <h1>STAR PATTERN</h1>
+    <script>
+        var rows = 5;
+       
+        for (i = 1; i <= rows; i++) {
+            // 1<5
+
+            // 2<5
+
+            // 3<5
+
+            // 4<5
+
+            // 5=5
+            for (k = 1; k <= (rows - i); k++) {
+                // 1<4
+                // 2<4
+                // 3<4
+                // 4=4
+
+                // 1<3
+                // 2<3
+                // 3=3
+
+                // 1<2
+                // 2=2
+
+                // 1=1
+
+                // 1<0..false
+                document.write("&nbsp;");
+               
+            }
+            for (j = 1; j <= i; j++) {
+                // 1=1
+
+                // 1<2
+                // 2=2
+
+                // 1<3
+                // 2<3
+                // 3=3
+
+                // 1<4
+                // 2<4
+                // 3<4
+                // 4=4
+
+                // 1<5
+                // 2<5
+                // 3<5
+                // 4<5
+                // 5=5
+                document.write('* ');
+            }
+            // break
+            document.write("<br/>")
+        }
+
+
+
+      // for(i=1; i<=rows; i++ ){
+        // console.log('* '.repeat(i))
+
+        // }
+    </script>
+</body>
+
+</html>
